@@ -10,6 +10,8 @@ A possiable way to record and share student life is what I called ***student sph
 ·***Guide***
 
 ·***ACG(fufu...😉 MIKU IS MY WIFE😍)***
+
+###NOTE
 ------
 
 **I will stay in HEBUT till 2026, Maybe you will meet me somewhere in Tianjiing.** 
