@@ -1,7 +1,3 @@
 site_name: MIKA'S Student Sphere
 theme:
   name: material
-
-copyright:
-  &copy 2023 <a href="https://github.com/kinemika" target="_blank" rel="noopener">Kine Mika</a>
-
