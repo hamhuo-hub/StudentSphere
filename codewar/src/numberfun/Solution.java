@@ -1,7 +1,7 @@
 package numberfun;
 
 
-public class NumberFun {
+public class Solution {
 
 // 1278 ms
 

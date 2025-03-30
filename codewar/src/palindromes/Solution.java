@@ -1,6 +1,6 @@
 package palindromes;
 
-public class Palindromes {
+public class Solution {
     public static boolean isPalindrome(long n) {
         long transform = 0;
         while (n != 0) {

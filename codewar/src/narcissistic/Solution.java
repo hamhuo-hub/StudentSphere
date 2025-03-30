@@ -1,6 +1,6 @@
 package narcissistic;
 
-public class IsNarcissistic {
+public class Solution {
 //    public static boolean isNarcissistic(int number) {
 //        if(number < 0){
 //            return false;
