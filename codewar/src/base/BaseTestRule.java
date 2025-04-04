@@ -1,5 +1,6 @@
 package base;
 
+
 import org.junit.AssumptionViolatedException;
 import org.junit.Rule;
 import org.junit.rules.Stopwatch;
@@ -10,7 +11,7 @@ import java.util.logging.Logger;
 
 public class BaseTestRule {
 
-    private static final Logger logger = Logger.getLogger("");
+    private static final Logger logger = Logger.getLogger(BaseTestRule.class.getName());
 
     private static void logInfo(Description description, String status, long nanos) {
         String testName = description.getMethodName();
