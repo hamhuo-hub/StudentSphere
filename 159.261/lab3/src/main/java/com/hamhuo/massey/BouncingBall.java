@@ -287,16 +287,19 @@ public class BouncingBall extends JPanel implements KeyListener {
     }
 
     // Called whenever the user presses a key
+    @Override
     public void keyPressed(KeyEvent e) {
 
     }
 
     // Called whenever the user releases a key
+    @Override
     public void keyReleased(KeyEvent e) {
 
     }
 
     // Called whenever the user presses and releases a key
+    @Override
     public void keyTyped(KeyEvent e) {
 
     }

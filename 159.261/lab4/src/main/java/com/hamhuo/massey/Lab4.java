@@ -120,6 +120,7 @@ public class Lab4 extends GameEngine {
 		laserPositionY = spaceshipPositionY;
 
 		// And make it move in the same direction as the spaceship is facing
+		// speed fixed
 		laserVelocityX =  sin(spaceshipAngle) * 250;
 		laserVelocityY = -cos(spaceshipAngle) * 250;
 
@@ -133,11 +134,18 @@ public class Lab4 extends GameEngine {
 	// Function to update 'move' the laser
 	public void updateLaser(double dt) {
 		// Update the laser
+		laserPositionX += laserVelocityX * dt;
+		laserPositionY += laserVelocityY * dt;
 	}
 
 	// Function to draw the laser
 	public void drawLaser() {
-		// Draw the laser
+		changeColor(red);
+		saveCurrentTransform();
+		translate(laserPositionX, laserPositionY);
+		rotate(laserAngle);
+		drawLine(0,  -20,  0,  -40);
+		restoreLastTransform();
 	}
 
 	//-------------------------------------------------------
@@ -260,6 +268,9 @@ public class Lab4 extends GameEngine {
 		// The user pressed up arrow
 		if(e.getKeyCode() == KeyEvent.VK_UP)    {
 			up    = true;
+		}
+		if (e.getKeyCode() == KeyEvent.VK_SPACE)  {
+			fireLaser();
 		}
 	}
 
