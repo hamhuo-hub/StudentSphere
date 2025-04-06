@@ -11,6 +11,7 @@ def matrix_dot_vector(a: list[list[int | float]], b: list[int | float]) -> list[
     if any(len(row) != num_cols for row in a):
         return -1
 
+    # make sure matrix can caculate
     if len(b) != num_cols:
         return -1
 
