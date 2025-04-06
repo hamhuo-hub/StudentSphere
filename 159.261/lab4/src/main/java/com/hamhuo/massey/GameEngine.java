@@ -203,7 +203,11 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
             double dt = passedTime / 1000.;
 
             // Update the Game
-            update(dt);
+            try {
+                update(dt);
+            } catch (InterruptedException ex) {
+                throw new RuntimeException(ex);
+            }
 
             // Tell the Game to draw
             mPanel.repaint();
@@ -253,7 +257,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     //-------------------------------------------------------
     // Update function
     //-------------------------------------------------------
-    public abstract void update(double dt);
+    public abstract void update(double dt) throws InterruptedException;
 
     //-------------------------------------------------------
     // Paint function
