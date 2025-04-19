@@ -353,7 +353,9 @@ public class Lab5 extends GameEngine {
 			drawLaser();
 
 			// Draw the Spaceship
-			drawSpaceship();			
+			drawSpaceship();
+
+
 		} else {
 			// If the game is over
 			// Display GameOver text
