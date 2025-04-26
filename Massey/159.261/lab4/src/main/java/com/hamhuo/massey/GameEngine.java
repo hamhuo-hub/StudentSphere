@@ -308,15 +308,15 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     //-------------------------------------------------------
 
     // My Definition of some colors
-    Color black = Color.BLACK;
-    Color orange = Color.ORANGE;
-    Color pink = Color.PINK;
-    Color red = Color.RED;
-    Color purple = new Color(128, 0, 128);
-    Color blue = Color.BLUE;
-    Color green = Color.GREEN;
-    Color yellow = Color.YELLOW;
-    Color white = Color.WHITE;
+    protected Color black = Color.BLACK;
+    protected Color orange = Color.ORANGE;
+    protected Color pink = Color.PINK;
+    protected Color red = Color.RED;
+    protected Color purple = new Color(128, 0, 128);
+    protected Color blue = Color.BLUE;
+    protected Color green = Color.GREEN;
+    protected Color yellow = Color.YELLOW;
+    protected Color white = Color.WHITE;
 
     // Changes the background Color to the color c
     public void changeBackgroundColor(Color c) {
@@ -560,13 +560,13 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     }
 
     // This function translates the drawing context by (x,y)
-    void translate(double x, double y) {
+    protected void translate(double x, double y) {
         // Translate the drawing context
         mGraphics.translate(x,y);
     }
 
     // This function rotates the drawing context by a degrees
-    void rotate(double a) {
+    protected void rotate(double a) {
         // Rotate the drawing context
         mGraphics.rotate(Math.toRadians(a));
     }

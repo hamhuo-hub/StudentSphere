@@ -1,4 +1,4 @@
-package com.hamhuo.massey;
+package com.hamhuo.massey.demo1;
 
 import java.awt.*;
 
