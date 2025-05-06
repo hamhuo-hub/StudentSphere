@@ -161,3 +161,7 @@ cython_debug/
 /.idea
 /159.261/.idea
 159.225/lab3/.$159.225 lab3.drawio.bkp
+*.1
+*.2
+*.3
+*.4
