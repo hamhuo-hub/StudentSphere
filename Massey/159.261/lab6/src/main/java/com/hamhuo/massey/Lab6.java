@@ -1,6 +1,5 @@
 package com.hamhuo.massey;
 
-import com.hamhuo.massey.GameEngine;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
@@ -291,7 +290,7 @@ public class Lab6 extends GameEngine {
     Image spritesheet;
 
     public void init() {
-        spritesheet = loadImage("C:\\Users\\HuoZihang\\Documents\\GitHub\\StudentSphere\\Massey\\159.261\\lab5\\lab6\\src\\main\\resources\\spritesheet.png");
+        spritesheet = loadImage("lab6/src/main/resources/spritesheet.png");
         initSpaceship();
         initLaser();
         initAsteroid();

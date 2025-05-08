@@ -1,19 +1,19 @@
 package com.hamhuo.massey;
 
-import java.awt.*;
-import java.awt.geom.*;
-
-import javax.swing.*;
-
-import java.awt.event.*;
-import java.awt.image.*;
-import java.io.*;
-
-import java.util.Stack;
-import java.util.Random;
-
-import javax.imageio.*;
+import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Rectangle2D;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.Random;
+import java.util.Stack;
 
 public abstract class GameEngine implements KeyListener, MouseListener, MouseMotionListener {
     //-------------------------------------------------------
@@ -192,27 +192,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
         }
     }
 
-    // Main Loop of the game. Runs continuously
-    // and calls all the updates of the game and
-    // tells the game to display a new frame.
-    GameTimer timer = new GameTimer(180, new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            // Determine the time step
-            double passedTime = measureTime();
-            double dt = passedTime / 1000.;
 
-            // Update the Game
-            try {
-                update(dt);
-            } catch (InterruptedException ex) {
-                throw new RuntimeException(ex);
-            }
-
-            // Tell the Game to draw
-            mPanel.repaint();
-        }
-    });
 
     // The GameEngine main Panel
     protected class GamePanel extends JPanel {
@@ -237,6 +217,28 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
             }
         }
     }
+
+    // Main Loop of the game. Runs continuously
+    // and calls all the updates of the game and
+    // tells the game to display a new frame.
+    GameTimer timer = new GameTimer(15, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            // Determine the time step
+            double passedTime = measureTime();
+            double dt = passedTime / 1000.;
+
+            // Update the Game
+            try {
+                update(dt);
+            } catch (InterruptedException ex) {
+                throw new RuntimeException(ex);
+            }
+
+            // Tell the Game to draw
+            mPanel.repaint();
+        }
+    });
 
     // Initialises and starts the game loop with the given framerate.
     public void gameLoop(int framerate) {
@@ -308,15 +310,15 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     //-------------------------------------------------------
 
     // My Definition of some colors
-    protected Color black = Color.BLACK;
-    protected Color orange = Color.ORANGE;
-    protected Color pink = Color.PINK;
-    protected Color red = Color.RED;
-    protected Color purple = new Color(128, 0, 128);
-    protected Color blue = Color.BLUE;
-    protected Color green = Color.GREEN;
-    protected Color yellow = Color.YELLOW;
-    protected Color white = Color.WHITE;
+    Color black = Color.BLACK;
+    Color orange = Color.ORANGE;
+    Color pink = Color.PINK;
+    Color red = Color.RED;
+    Color purple = new Color(128, 0, 128);
+    Color blue = Color.BLUE;
+    Color green = Color.GREEN;
+    Color yellow = Color.YELLOW;
+    Color white = Color.WHITE;
 
     // Changes the background Color to the color c
     public void changeBackgroundColor(Color c) {
@@ -439,7 +441,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     // This function draws text on the screen at (x,y)
     public void drawText(double x, double y, String s) {
         // Draw text on the screen
-        mGraphics.setFont(new Font("Arial", Font.PLAIN, 40));
+        mGraphics.setFont(new Font("Arial", Font.PLAIN, 30));
         mGraphics.drawString(s, (int)x, (int)y);
     }
 
@@ -560,13 +562,13 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
     }
 
     // This function translates the drawing context by (x,y)
-    protected void translate(double x, double y) {
+    void translate(double x, double y) {
         // Translate the drawing context
         mGraphics.translate(x,y);
     }
 
     // This function rotates the drawing context by a degrees
-    protected void rotate(double a) {
+    void rotate(double a) {
         // Rotate the drawing context
         mGraphics.rotate(Math.toRadians(a));
     }
