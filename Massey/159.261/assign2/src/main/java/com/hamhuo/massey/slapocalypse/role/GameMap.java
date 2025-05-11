@@ -1,10 +1,12 @@
-package com.hamhuo.massey.slapocalypse;
+package com.hamhuo.massey.slapocalypse.role;
 
-public class Map {
+import com.hamhuo.massey.slapocalypse.core.GameEngine;
+
+public abstract class GameMap {
     private int[][] grid; // 0: 可通行, 1: 障碍
     private int width, height;
 
-    public Map(int width, int height) {
+    public GameMap(int width, int height) {
         this.width = width;
         this.height = height;
         grid = new int[width][height];

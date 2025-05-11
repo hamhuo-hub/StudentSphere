@@ -1,8 +1,11 @@
-package com.hamhuo.massey.slapocalypse;
+package com.hamhuo.massey.slapocalypse.role;
+
+import com.hamhuo.massey.slapocalypse.core.GameEngine;
+import com.hamhuo.massey.slapocalypse.core.Conductor;
 
 import java.awt.event.KeyEvent;
 
-public class Player {
+public abstract class Player {
     private int x, y; // 网格坐标
     private int hp;   // 生命值
     private int attack; // 攻击力
@@ -40,7 +43,7 @@ public class Player {
         // todo 需要计数器，冻结移动
     }
 
-    public void update(Map map, Enemy[] enemies) {
+    public void update(GameMap map, Enemy[] enemies) {
         if (hasPendingAction && conductor.isInRhythmWindow(0.1)) {
             int newX = x + pendingMoveX;
             int newY = y + pendingMoveY;

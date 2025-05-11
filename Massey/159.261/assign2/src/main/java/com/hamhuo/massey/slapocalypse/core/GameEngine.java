@@ -1,4 +1,4 @@
-package com.hamhuo.massey.slapocalypse;
+package com.hamhuo.massey.slapocalypse.core;
 
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;

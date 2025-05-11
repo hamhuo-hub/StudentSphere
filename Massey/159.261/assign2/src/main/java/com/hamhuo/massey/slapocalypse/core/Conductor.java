@@ -1,7 +1,10 @@
-package com.hamhuo.massey.slapocalypse;
+package com.hamhuo.massey.slapocalypse.core;
 
 
 public class Conductor {
+
+    //需要保证全局单例，所以使用工厂模式确保在类内实例化，静态初始化节拍器
+    private static final Conductor CON = new Conductor();
     private double bpm;          // 每分钟节拍数
     private double crotchet;     // 四分音符持续时间（秒）
     private double offset;       // 歌曲偏移（秒）
@@ -11,13 +14,22 @@ public class Conductor {
     private GameEngine.AudioClip audioClip; // 音频剪辑
     private GameEngine gameEngine; // 游戏引擎实例
 
-    public Conductor(GameEngine gameEngine, double bpm, double offset) {
+    private Conductor(GameEngine gameEngine, double bpm, double offset) {
         this.gameEngine = gameEngine;
         this.bpm = bpm;
         this.crotchet = 60.0 / bpm;
         this.offset = offset;
         this.isPlaying = false;
         this.songPosition = 0;
+    }
+
+    private Conductor() {
+        ;
+    }
+
+    // 单例，唯一的外部出口
+    public static Conductor getInstance() {
+        return CON;
     }
 
     public void setAudioClip(GameEngine.AudioClip audioClip) {
