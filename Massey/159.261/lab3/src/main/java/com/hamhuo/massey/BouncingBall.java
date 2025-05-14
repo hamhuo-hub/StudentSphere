@@ -260,7 +260,7 @@ public class BouncingBall extends JPanel implements KeyListener {
     double scaledOuterRadius = 1;
     public void paintComponent(Graphics g) {
         // 设置背景颜色，随时间变深
-        changeBackgroundColor(g, 0, 0, (int) backgroundDepth);
+        changeBackgroundColor(g, 0, 0, 0);
         clearBackground(g, 500, 500);
         scaledOuterRadius = outerRadius * scale;
         // 画黑色缩小圆圈

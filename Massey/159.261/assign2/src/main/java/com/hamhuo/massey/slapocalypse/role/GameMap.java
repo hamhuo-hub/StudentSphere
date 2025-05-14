@@ -25,14 +25,5 @@ public abstract class GameMap {
         return x >= 0 && x < width && y >= 0 && y < height && grid[x][y] == 0;
     }
 
-    public void draw(GameEngine gameEngine) {
-        for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                if (grid[x][y] == 1) {
-                    gameEngine.changeColor(gameEngine.black);
-                    gameEngine.drawSolidRectangle(x * 50, y * 50, 50, 50);
-                }
-            }
-        }
-    }
+
 }

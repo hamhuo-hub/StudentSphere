@@ -14,7 +14,7 @@ During the development of this project, AI tools were used in the following ways
 All AI-assisted content was reviewed, modified, and integrated manually to fit the specific requirements and style of the project.
 
 ## 🕹 Introduction
-This project is a classic Snake game implemented using Java AWT and a custom GameEngine.    
+This project is a classic Snake game implemented using Java AWT and a custom stage1.GameEngine.    
 The player controls a snake moving on a 25×25 grid, growing longer by eating apples.    
 The game ends if the snake hits the wall or collides with itself.
 

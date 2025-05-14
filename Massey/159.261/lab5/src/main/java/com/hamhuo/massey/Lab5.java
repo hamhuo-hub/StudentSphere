@@ -1,4 +1,6 @@
-package com.hamhuo.massey;
+package main.java.com.hamhuo.massey;
+
+import main.java.com.hamhuo.massey.GameEngine;
 
 import java.awt.*;
 import java.awt.event.*;
