@@ -1,86 +1,40 @@
 package com.hamhuo.massey.slapocalypse.core;
-import java.awt.*;
-import java.util.HashMap;
-import java.util.Map;
+
+import com.hamhuo.massey.slapocalypse.enums.Direction;
+import com.hamhuo.massey.slapocalypse.enums.State;
+
+import java.awt.Image;
 
 public class Animation {
-    // 存储每种状态的动画帧，键是状态，值是Image[][]（方向 × 帧）
-    private final Map<State, Image[][]> framesMap;
-    // 存储每种状态的帧率
-    private final Map<State, Double> frameRates;
-    // 当前状态和方向
-    private State currentState;
-    private Direction currentDirection;
-    // 自动画开始以来的累计时间
-    private double elapsedTime;
-    // 动画是否在播放
-    private boolean isPlaying;
+    private final GameEngine engine;
+    private final Image[][][] frames; // [State][Direction][Frame]
 
-    public Animation() {
-        framesMap = new HashMap<>();
-        frameRates = new HashMap<>();
-        elapsedTime = 0;
-        isPlaying = false;
+    public Animation(GameEngine engine) {
+        this.engine = engine;
+        frames = new Image[State.values().length][Direction.values().length][];
     }
 
-    // 设置某状态的动画帧
-    public void setFrames(State state, Image[][] frames) {
-        framesMap.put(state, frames);
-    }
-
-    // 设置某状态的帧率
-    public void setFrameRate(State state, double frameRate) {
-        frameRates.put(state, frameRate);
-    }
-
-    // 设置当前状态，切换时重置动画时间
-    public void setState(State state) {
-        if (currentState != state) {
-            currentState = state;
-            elapsedTime = 0;
+    public void loadStateSpritesheet(State state, String path, int framesPerRow) {
+        Image sheet = engine.loadImage(path);
+        int w = sheet.getWidth(null), h = sheet.getHeight(null);
+        int frameW = w / framesPerRow, frameH = h / 4;
+        for (int di = 0; di < 4; di++) {
+            Image[] arr = new Image[framesPerRow];
+            for (int fi = 0; fi < framesPerRow; fi++) {
+                arr[fi] = engine.subImage(sheet, fi * frameW, di * frameH, frameW, frameH);
+            }
+            frames[state.ordinal()][di] = arr;
         }
     }
 
-    // 设置当前方向
-    public void setDirection(Direction direction) {
-        currentDirection = direction;
+    public int getFrameCount(State state, Direction dir) {
+        Image[] arr = frames[state.ordinal()][dir.ordinal()];
+        return arr == null ? 0 : arr.length;
     }
 
-    // 更新动画进度，deltaTime是时间增量（单位：秒）
-    public void update(double deltaTime) {
-        if (isPlaying) {
-            elapsedTime += deltaTime;
-        }
-    }
-
-    // 获取当前帧
-    public Image getCurrentFrame() {
-        if (currentState == null || currentDirection == null) {
-            return null;
-        }
-
-        Image[][] frames = framesMap.get(currentState);
-        if (frames == null) {
-            return null;
-        }
-
-        Image[] directionFrames = frames[currentDirection.ordinal()];
-        if (directionFrames == null || directionFrames.length == 0) {
-            return null;
-        }
-
-        double frameRate = frameRates.getOrDefault(currentState, 0.1);
-        int frameIndex = (int) (elapsedTime / frameRate) % directionFrames.length;
-        return directionFrames[frameIndex];
-    }
-
-    // 开始播放动画
-    public void play() {
-        isPlaying = true;
-    }
-
-    // 停止播放动画
-    public void stop() {
-        isPlaying = false;
+    public Image getFrame(State state, Direction dir, int idx) {
+        Image[] arr = frames[state.ordinal()][dir.ordinal()];
+        if (arr == null || arr.length == 0) return null;
+        return arr[idx % arr.length];
     }
 }

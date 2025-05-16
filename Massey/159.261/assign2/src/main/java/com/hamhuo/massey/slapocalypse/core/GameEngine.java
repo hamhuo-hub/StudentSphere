@@ -1,5 +1,7 @@
 package com.hamhuo.massey.slapocalypse.core;
 
+import com.hamhuo.massey.slapocalypse.entity.GameMap;
+
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 import javax.swing.*;
@@ -394,7 +396,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
 
     // This function draws a rectangle at (x,y) with width and height (w,h)
     // with a line of width l
-    void drawRectangle(double x, double y, double w, double h, double l) {
+    GameMap drawRectangle(double x, double y, double w, double h, double l) {
         // Set the stroke
         mGraphics.setStroke(new BasicStroke((float)l));
 
@@ -403,6 +405,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
 
         // Reset the stroke
         mGraphics.setStroke(new BasicStroke(1.0f));
+        return null;
     }
 
     // This function fills in a rectangle at (x,y) with width and height (w,h)

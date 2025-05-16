@@ -1,9 +1,9 @@
-package com.hamhuo.massey.slapocalypse.core;
+package com.hamhuo.massey.slapocalypse.enums;
 
 public enum Direction {
     DOWN,
     UP,
     LEFT,
     RIGHT,
-    STEADY
+
 }
