@@ -1,7 +1,5 @@
 package com.hamhuo.massey.slapocalypse.core;
 
-import com.hamhuo.massey.slapocalypse.entity.GameMap;
-
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 import javax.swing.*;
@@ -151,7 +149,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
             @Override
             public void run() {
                 // Create the window
-                setupWindow(500,500);
+                setupWindow(1000,1000);
             }
         });
     }
@@ -194,27 +192,6 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
         }
     }
 
-    // Main Loop of the game. Runs continuously
-    // and calls all the updates of the game and
-    // tells the game to display a new frame.
-    GameTimer timer = new GameTimer(180, new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            // Determine the time step
-            double passedTime = measureTime();
-            double dt = passedTime / 1000.;
-
-            // Update the Game
-            try {
-                update(dt);
-            } catch (InterruptedException ex) {
-                throw new RuntimeException(ex);
-            }
-
-            // Tell the Game to draw
-            mPanel.repaint();
-        }
-    });
 
     // The GameEngine main Panel
     protected class GamePanel extends JPanel {
@@ -239,6 +216,28 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
             }
         }
     }
+
+    // Main Loop of the game. Runs continuously
+    // and calls all the updates of the game and
+    // tells the game to display a new frame.
+    GameTimer timer = new GameTimer(180, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            // Determine the time step
+            double passedTime = measureTime();
+            double dt = passedTime / 1000.;
+
+            // Update the Game
+            try {
+                update(dt);
+            } catch (InterruptedException ex) {
+                throw new RuntimeException(ex);
+            }
+
+            // Tell the Game to draw
+            mPanel.repaint();
+        }
+    });
 
     // Initialises and starts the game loop with the given framerate.
     public void gameLoop(int framerate) {
@@ -396,7 +395,7 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
 
     // This function draws a rectangle at (x,y) with width and height (w,h)
     // with a line of width l
-    GameMap drawRectangle(double x, double y, double w, double h, double l) {
+    void drawRectangle(double x, double y, double w, double h, double l) {
         // Set the stroke
         mGraphics.setStroke(new BasicStroke((float)l));
 
@@ -405,7 +404,6 @@ public abstract class GameEngine implements KeyListener, MouseListener, MouseMot
 
         // Reset the stroke
         mGraphics.setStroke(new BasicStroke(1.0f));
-        return null;
     }
 
     // This function fills in a rectangle at (x,y) with width and height (w,h)

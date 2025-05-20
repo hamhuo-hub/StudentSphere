@@ -1,83 +1,90 @@
-梳理游戏流程：
-我们已经有一个基础的游戏引擎类，该类有如下方法
+# Slapocalypse v1.0
 
-数学方法
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510150432521.png)
+欢迎体验 **Slapocalypse**，一款基于节奏的回合制格子游戏！玩家控制一名角色，在 9x9 格子地图上与三种史莱姆敌人（蓝、黄、粉）展开战斗，动作需与背景音乐的节拍同步。游戏结合了策略、节奏和路径规划，带来独特的游戏体验。
 
-绘图方法
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510150506105.png)
+## 游戏特色
 
-资源加载
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510150618208.png)
+- **节奏驱动的战斗**：所有移动和攻击必须在节拍窗口（0.1秒容差）内完成，考验你的节奏感。
+- **移动即攻击**：玩家通过尝试移动到敌人所在格子触发攻击，取代传统按键攻击。
+- **多样化的敌人AI**：
+  - 蓝史莱姆：使用 A* 路径规划，每拍移动，优先级 3。
+  - 黄史莱姆：使用 BFS 路径规划，每两拍移动，优先级 2。
+  - 粉史莱姆：使用贪婪最佳优先路径规划，每三拍移动，优先级 1。
+- **优先级系统**：玩家（优先级 100）优先于敌人，解决移动和攻击重叠问题，确保公平结算。
+- **动态地图**：地图纹理随节拍切换（`map1.png` 和 `map2.png`），提供视觉节奏反馈。
+- **沉浸式音效**：背景音乐和状态音效（闲置、移动、攻击、受伤、死亡）增强游戏氛围。
+- **动画支持**：玩家和敌人拥有多方向（上、下、左、右）的动画（闲置、跑动、攻击、受伤、死亡）。
 
-接口
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510150712674.png)
+  ![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250520133844662.png)
 
-监听
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510150738414.png)
+## 安装说明
 
-该类是最底层的游戏引擎，继承该类只需要重写绘制逻辑即可。其中的     
-`paintCompoent()`方法可视为绘制那些对象？
-`update()` 可视为怎样绘制对象？
+### 系统要求
+- **操作系统**：Windows、macOS 或 Linux
+- **Java**：JDK 8 或更高版本
+- **内存**：至少 512 MB 可用 RAM
+- **存储**：约 100 MB 用于游戏和资源文件
 
-游戏引擎是一个接口/抽象类，其目的是要求游戏主类继承游戏引擎并重写其中绘制方法（需要绘制那些对象/如何绘制），因此我们需要创建一个游戏主类来协调所有游戏的对象 `GameController` 该对象继承引擎，因此可视为引擎的实现类
+### 安装步骤
+1. **克隆仓库**：
+   ```bash  
+   git clone https://github.com/your-repo/slapocalypse.git  
+   cd slapocalypse  
+   ```2. **准备资源文件**：  
+   - 确保 `src/main/resources/` 包含以下文件：  
+     - 地图纹理：`map1.png`, `map2.png`  
+     - 背景音乐：`song.wav`  
+     - 音效：`sounds/idle.wav`, `sounds/move.wav`, `sounds/attack.wav`, `sounds/hurt.wav`, `sounds/death.wav`  
+     - 精灵表：`player1/`, `Slime1/`, `Slime2/`, `Slime3/` 下的动画文件  
+   - 如果缺少资源，请联系开发者或使用占位文件。  
+3. **编译和运行**：
+   ```bash  
+   javac com/hamhuo/massey/slapocalypse/core/*.java com/hamhuo/massey/slapocalypse/entity/*.java com/hamhuo/massey/slapocalypse/state/*.java  
+   java com.hamhuo.massey.slapocalypse.core.GameController  
+   ```  
+## 玩法
 
-游戏主类/游戏控制器的职责如下
-- 新建所有对象
-- 控制协调所有对象
-- 调用对象的更新方法
-- 负责资源的加载
-
-在讲游戏引擎如何使用之前，先来说游戏中的所有对象有什么属性和方法
-首先敌人类
-
-敌人在游戏中的作用是，随节拍移动并接近玩家，攻击玩家。目标是杀死玩家。因此敌人类需要
-
-- 一个全局的节拍器来控制移动时机。这个节拍器需要==保证全局单例==。
--  当前坐标来计算路径。
-- 血量
-- 攻击力
-
-  ![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510153820369.png)
-
-- 动画/绘制方式
-- 声音/打击反馈
-
-前三个没什么可说的，主要是动画和声音。因为所有实现类都有自己的音效和动画。所以需要写一个抽象方法来实现多态
-
-动画和音效方法的逻辑如下
-- 游戏主类调用地图类更新
-- 地图类调用所有实体的新建/更新逻辑
-- 敌人根据当前状态调用相应绘图逻辑
-
-控制器和地图一会再说，先来说敌人类的更新方法
-- 判断敌人当前状态
-- 执行对应的动画/声音（哈希表）（更新策略）
-  与其他类的交互/生命周期等在地图处理，以节拍为更新信号。最后在控制器绘制
-
-我们尝试创建一只史莱姆 `Slime`
-首先继承 `Enemy`
-为了绘制动画，我们需要数组来存储动画帧
-
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510202332606.png)
-
-所有资源的加载都应该在控制器进行，所以
-
+- **目标**：在 9x9 格子地图上击败所有敌人（蓝、黄、粉史莱姆），避免被击败（玩家 HP ≤ 0 触发游戏结束）。
+- **控制**：
+  - **方向键**（上、下、左、右）：选择移动方向，尝试移动到空地板格子（进入 `RunState`）或敌人格子（进入 `AttackState`）。
+  - **ESC**：退出游戏。
+- **节奏机制**：
+  - 游戏以 100 BPM 运行，每拍 0.6 秒。
+  - 动作需在节拍窗口（0.1 秒容差）内输入，错过窗口将重置为 `IdleState`。
+- **战斗**：
+  - 每次攻击造成 10 点伤害（玩家和敌人 HP 初始为 100）。
+  - 玩家优先级最高，攻击和移动优先于敌人。
+  - 敌人根据路径规划（A*, BFS, 贪婪）追击玩家，靠近时攻击。
+- **状态**：
+  - `Idle`：等待输入或节拍。
+  - `Run`：移动到新格子。
+  - `Attack`：攻击目标格子，若无目标则回滚。
+  - `Hurt`：受到伤害，显示受伤动画。
+  - `Death`：HP ≤ 0，结束（玩家死亡触发游戏结束）。
 
 
 
-写了史莱姆的攻击动画
-问题：Enemy（敌人）类的代码冗余，史莱姆或者其他实体继承敌人类后应该只重写攻击方式和动画，其他直接复用敌人类代码。需要修改敌人类和史莱姆的攻击方法
-目前的敌人类逻辑是：
-敌人类初始化：
-敌人状态：
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510144204314.png)
+## 贡献
 
-敌人实体在与玩家交互时会在上述6种状态间切换。所有敌人实体目前均只有这6种状态。
+欢迎为 **Slapocalypse** 贡献代码、修复 bug 或提出建议！请按照以下步骤：
 
-敌人状态会与敌人动画绑定，根据不同的状态来调用不同的sprite，使用哈希表来做状态绑定。所有敌人实体都需要这个属性，写到父类里面做多态
+1. Fork 本仓库。
+2. 创建特性分支（`git checkout -b feature/YourFeature`）。
+3. 提交更改（`git commit -m '添加 YourFeature'`）。
+4. 推送到分支（`git push origin feature/YourFeature`）。
+5. 提交 Pull Request。
 
-![image.png](https://cdn.jsdelivr.net/gh/hamhuo-hub/HamPic@img/img/20250510145208594.png)
 
-我们不希望所有子类共享一个哈希表，所以在子类重写一个哈希表覆盖
+## 致谢
 
+感谢所有测试者和贡献者！特别感谢：  
+[颍桓](https://gitee.com/ddd020622)
+[十豆加](https://gitee.com/shi-dou-jia)
+[商家鹏](https://gitee.com/shang-jiapeng)
+## 许可证
+
+本项目采用 MIT 许可证。详情见 [LICENSE](LICENSE) 文件。
+  
+---  
+
+**Slapocalypse v1.0** - 击弦-正式版 v1.0
