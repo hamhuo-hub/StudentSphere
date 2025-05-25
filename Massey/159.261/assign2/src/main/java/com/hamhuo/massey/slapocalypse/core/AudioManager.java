@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AudioManager {
-    private GameEngine engine;
-    private Map<String, GameEngine.AudioClip> soundEffects;
+    private final GameEngine engine;
+    private final Map<String, GameEngine.AudioClip> soundEffects;
     private GameEngine.AudioClip backgroundMusic;
     private double songPosition;
 

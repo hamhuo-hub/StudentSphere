@@ -2,6 +2,7 @@ package com.hamhuo.massey.slapocalypse.entity;
 
 import com.hamhuo.massey.slapocalypse.core.AnimationManager;
 import com.hamhuo.massey.slapocalypse.core.AudioManager;
+import com.hamhuo.massey.slapocalypse.core.GameController;
 import com.hamhuo.massey.slapocalypse.core.GameMap;
 import com.hamhuo.massey.slapocalypse.state.*;
 
@@ -13,9 +14,11 @@ public class Player extends Entity {
     private int pendingDx, pendingDy;
     private Direction pendingDirection;
     private boolean hasPendingMove;
+    private int consecutiveOnBeatMoves = 0;
+    private int lastOnBeatMove = -1;
+    private GameController gameController;
 
-
-    public Player(int x, int y, String entityType, AnimationManager anim, AudioManager audio, GameMap map, EntityManager entityManager, int priority) {
+    public Player(int x, int y, String entityType, AnimationManager anim, AudioManager audio, GameMap map, EntityManager entityManager, int priority, GameController gameController) {
         super(x, y, entityType, anim, audio, priority);
         this.map = map;
         this.entityManager = entityManager;
@@ -24,26 +27,26 @@ public class Player extends Entity {
         this.pendingDirection = direction;
         this.hasPendingMove = false;
         this.attack = 100;
+        this.gameController = gameController;
     }
 
     @Override
     public void action(boolean inRhythmWindow) {
-        if (!inRhythmWindow) {
-            hasActedThisBeat = false;
-            resetUpdateFlag();
-            if (!(state instanceof IdleState) && !(state instanceof DeathState)) {
-                setState(new IdleState(this));
-            }
-            return;
+
+        int currentRhythm = (int)(gameController.getSongPos() / gameController.getCrotchet());
+
+
+        if (lastOnBeatMove >= 0 && currentRhythm > lastOnBeatMove + 1) {
+            consecutiveOnBeatMoves = 0;
         }
 
         if (inRhythmWindow && !hasActedThisBeat && hasPendingMove && state instanceof IdleState) {
             int newX = x + pendingDx;
             int newY = y + pendingDy;
-            // Check if target tile has an enemy
+
             Entity target = findEntityAt(newX, newY);
             if (target != null && !(target.getState() instanceof DeathState)) {
-                // Attack instead of moving
+
                 setDirection(pendingDirection);
                 setAttackPosition(newX, newY);
                 setState(new AttackState(this));
@@ -53,9 +56,36 @@ public class Player extends Entity {
             } else {
                 setState(new IdleState(this));
             }
+            audioManager.playSoundEffect("PlayerMove");
+
+
+            if (currentRhythm == lastOnBeatMove + 1) {
+                consecutiveOnBeatMoves++;
+            } else {
+                consecutiveOnBeatMoves = 1;
+            }
+            lastOnBeatMove = currentRhythm;
+
+
+            if (consecutiveOnBeatMoves >= 3) {
+                audioManager.playSoundEffect("Excellent");
+                gameController.triggerSmoke();
+                gameController.startFlameAnimation();
+
+                consecutiveOnBeatMoves = 0;
+                lastOnBeatMove = -1;
+            }
+
             hasActedThisBeat = true;
             markUpdated();
             hasPendingMove = false;
+        } else if (!inRhythmWindow) {
+            hasActedThisBeat = false;
+            resetUpdateFlag();
+            if (!(state instanceof IdleState) && !(state instanceof DeathState)) {
+                setState(new IdleState(this));
+            }
+            return;
         }
         state.update(inRhythmWindow);
     }

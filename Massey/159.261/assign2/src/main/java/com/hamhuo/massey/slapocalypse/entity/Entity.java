@@ -10,8 +10,8 @@ import java.awt.event.KeyEvent;
 public abstract class Entity {
     protected int x, y;
     protected int previousX, previousY; // For move rollback
-    protected int hp = 100;
-    protected int attack = 10;
+    protected int hp = 60;
+    protected int attack = 5;
     protected State state;
     protected Direction direction = Direction.DOWN;
     protected AnimationManager animationManager;
@@ -95,7 +95,9 @@ public abstract class Entity {
     }
 
     public void takeDamage(int damage) {
+
         hp -= damage;
+        if (hp < 0) hp = 0;
     }
 
     public int getPriority() {
@@ -120,6 +122,10 @@ public abstract class Entity {
         this.attackY = -1;
     }
 
+    public String getEntityType() {
+        return entityType;
+    }
+
     public boolean hasAttackedThisBeat() {
         return hasAttackedThisBeat;
     }
@@ -129,7 +135,17 @@ public abstract class Entity {
     }
 
     public void updateAnimation(double dt) {
-        double dur = state instanceof RunState ? 0.055 : (state instanceof AttackState ? 0.05 : 0.15);
+        // a little discuss here, we actually set dur manually instead of calculating, THAT REALLY DEPENDS ON YOUR PC PERFORMANCE
+        // play speed, less is faster
+        double dur = 0;
+        switch (state.getClass().getSimpleName()) {
+            case "IdleState":
+                dur = 0.15;
+                break;
+            case "RunState", "AttackState", "HurtState", "DeathState":
+                dur = 0.065;
+                break;
+        }
         animTimer += dt;
         int count = animationManager.getFrameCount(entityType, state.getName(), direction);
         if (count > 0 && animTimer >= dur) {

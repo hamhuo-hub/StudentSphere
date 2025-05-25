@@ -3,7 +3,7 @@ package com.hamhuo.massey.slapocalypse.state;
 import com.hamhuo.massey.slapocalypse.entity.Entity;
 
 public class DeathState implements State {
-    private Entity entity;
+    private final Entity entity;
 
     public DeathState(Entity entity) {
         this.entity = entity;
@@ -11,7 +11,12 @@ public class DeathState implements State {
 
     @Override
     public void entry() {
-        entity.audioManager.playSoundEffect("DEATH");
+        if (entity instanceof com.hamhuo.massey.slapocalypse.entity.Player) {
+            entity.audioManager.playSoundEffect("PlayDeath");
+        } else {
+            String key = entity.getEntityType() + "DEATH";
+            entity.audioManager.playSoundEffect(key);
+        }
         System.out.println(entity.getClass().getSimpleName() + " Died");
     }
 

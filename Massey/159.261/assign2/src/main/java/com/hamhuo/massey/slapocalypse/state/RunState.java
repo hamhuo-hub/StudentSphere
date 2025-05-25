@@ -3,7 +3,7 @@ package com.hamhuo.massey.slapocalypse.state;
 import com.hamhuo.massey.slapocalypse.entity.Entity;
 
 public class RunState implements State {
-    private Entity entity;
+    private final Entity entity;
 
     public RunState(Entity entity) {
         this.entity = entity;

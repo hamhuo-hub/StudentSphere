@@ -1,10 +1,11 @@
 package com.hamhuo.massey.slapocalypse.entity;
 
 import com.hamhuo.massey.slapocalypse.core.AudioManager;
+import com.hamhuo.massey.slapocalypse.core.GameController;
 import com.hamhuo.massey.slapocalypse.core.GameMap;
 import com.hamhuo.massey.slapocalypse.state.*;
 
-import java.awt.Graphics2D;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -42,31 +43,25 @@ public class EntityManager {
     }
 
     public void update(double dt, boolean inRhythmWindow) {
-        // Sort entities by priority (descending)
         List<Entity> allEntities = new ArrayList<>();
         allEntities.add(player);
         allEntities.addAll(enemies);
         allEntities.sort(Comparator.comparingInt(Entity::getPriority).reversed());
 
-        // Update entities in priority order
         for (Entity entity : allEntities) {
             entity.action(inRhythmWindow);
         }
 
-        // Resolve movement conflicts
         resolveMovementConflicts(allEntities);
 
-        // Process attacks and collisions
         if (inRhythmWindow) {
             checkCollisions(allEntities);
         }
 
-        // Update animations
         for (Entity entity : allEntities) {
             entity.updateAnimation(dt);
         }
 
-        // Check for game over
         if (player.getState() instanceof DeathState) {
             System.out.println("Game Over: Player died");
             System.exit(0);
@@ -81,7 +76,6 @@ public class EntityManager {
                 Entity e2 = entities.get(j);
                 if (e2.getState() instanceof DeathState) continue;
                 if (e1.getX() == e2.getX() && e1.getY() == e2.getY()) {
-                    // Lower-priority entity reverts position
                     if (e1.getPriority() > e2.getPriority()) {
                         e2.revertPosition();
                         e2.setState(new IdleState(e2));
@@ -102,7 +96,6 @@ public class EntityManager {
                     applyDamage(attacker, target);
                     attacker.setAttackedThisBeat(true);
                 } else {
-                    // Attack rollback if no target
                     attacker.setState(new IdleState(attacker));
                     attacker.clearAttackPosition();
                 }
@@ -128,23 +121,32 @@ public class EntityManager {
     private void applyDamage(Entity attacker, Entity target) {
         int damage = attacker.getAttack();
         target.takeDamage(damage);
+
         if (target.getHP() <= 0) {
             target.setState(new DeathState(target));
+            if (target instanceof Player) {
+                audioManager.playSoundEffect("PlayDeath");
+            } else {
+                String enemyType = target.getEntityType();
+                audioManager.playSoundEffect(enemyType + "DEATH");
+            }
         } else {
             target.setState(new HurtState(target));
+            audioManager.playSoundEffect("HURT");
         }
-        audioManager.playSoundEffect("HURT");
     }
 
-    public void render(Graphics2D g) {
-        int tileSize = map.getTileSize();
+    public void render(Graphics2D g, int offsetX, int offsetY, int tileSize) {
         List<Entity> allEntities = new ArrayList<>();
         allEntities.add(player);
         allEntities.addAll(enemies);
         for (Entity entity : allEntities) {
             if (!(entity.getState() instanceof DeathState)) {
-                g.drawImage(entity.getCurrentFrame(), entity.getX() * tileSize, entity.getY() * tileSize, tileSize, tileSize, null);
+                int drawX = entity.getX() * tileSize + offsetX;
+                int drawY = entity.getY() * tileSize + offsetY;
+                g.drawImage(entity.getCurrentFrame(), drawX, drawY, tileSize, tileSize, null);
             }
         }
+
     }
 }

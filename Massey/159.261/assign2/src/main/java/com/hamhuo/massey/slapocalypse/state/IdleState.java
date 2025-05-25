@@ -5,7 +5,7 @@ import com.hamhuo.massey.slapocalypse.entity.Player;
 import com.hamhuo.massey.slapocalypse.entity.Enemy;
 
 public class IdleState implements State {
-    private Entity entity;
+    private final Entity entity;
 
     public IdleState(Entity entity) {
         this.entity = entity;
