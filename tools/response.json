@@ -1,0 +1,2448 @@
+{
+  "currentTime": 1748260744267,
+  "msg": "请求成功",
+  "rt": {
+    "id": null,
+    "score": null,
+    "examBase": {
+      "id": "5krrR7qe",
+      "name": "男生穿搭技巧教程试卷",
+      "courseName": "男生穿搭技巧",
+      "toChapter": null,
+      "explain": "祝同学们考出好成绩！",
+      "limitTime": null,
+      "problemNum": 62,
+      "totalScore": "100",
+      "pontType": "百分制",
+      "workExamParts": [
+        {
+          "id": null,
+          "startSort": 1,
+          "questionCount": 62,
+          "questionDtos": [
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >薄款针织衫要选择（  ）式样才修饰身材。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236386,
+                  "content": "<span style=\"color:#000000;\" >腰部过紧</span>"
+                },
+                {
+                  "id": 342236396,
+                  "content": "<span style=\"color:#000000;\" >紧贴身体</span>"
+                },
+                {
+                  "id": 342236382,
+                  "content": "<span style=\"color:#000000;\" >短过腰部</span>"
+                },
+                {
+                  "id": 342236391,
+                  "content": "<span style=\"color:#000000;\" >略微宽松</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "+IJ7TJ3yuX8sZL4vfQclVA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >冬季羊绒衬衫里面不可以穿（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342231668,
+                  "content": "<span style=\"color:#000000;\" >棒针毛衣</span>"
+                },
+                {
+                  "id": 342231666,
+                  "content": "<span style=\"color:#000000;\" >T恤</span>"
+                },
+                {
+                  "id": 342231673,
+                  "content": "<span style=\"color:#000000;\" >薄款针织衫</span>"
+                },
+                {
+                  "id": 342231671,
+                  "content": "<span style=\"color:#000000;\" >保暖内衣</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "ceFtWzLHd2nNQC+ooHBcpQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >有小肚腩的男生穿短款牛仔夹克的方法是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233936,
+                  "content": "<span style=\"color:#000000;\" >内长外短</span>"
+                },
+                {
+                  "id": 342233945,
+                  "content": "<span style=\"color:#000000;\" >内长外长</span>"
+                },
+                {
+                  "id": 342233941,
+                  "content": "<span style=\"color:#000000;\" >内短外长</span>"
+                },
+                {
+                  "id": 342233932,
+                  "content": "<span style=\"color:#000000;\" >直接穿</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "B87ANmFJnhJFgNOFZURl2A==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >以单排扣式样居多，而且衣后不开衩的西服指的是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236076,
+                  "content": "<span style=\"color:#000000;\" >日版</span>"
+                },
+                {
+                  "id": 342236090,
+                  "content": "<span style=\"color:#000000;\" >欧版</span>"
+                },
+                {
+                  "id": 342236086,
+                  "content": "<span style=\"color:#000000;\" >韩版</span>"
+                },
+                {
+                  "id": 342236081,
+                  "content": "<span style=\"color:#000000;\" >美版</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "bg2qWUoxDIn08rerjnA5Qg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >提升气质显高贵和档次西装颜色是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233117,
+                  "content": "<span style=\"color:#000000;\" >黑色</span>"
+                },
+                {
+                  "id": 342233121,
+                  "content": "<span style=\"color:#000000;\" >藏青色</span>"
+                },
+                {
+                  "id": 342233125,
+                  "content": "<span style=\"color:#000000;\" >灰色</span>"
+                },
+                {
+                  "id": 342233129,
+                  "content": "<span style=\"color:#000000;\" >咖啡色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "KLJq1YWHSZhwhoOl3jQ9VQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >西装内侧左右的胸袋不可以放（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232164,
+                  "content": "<span style=\"color:#000000;\" >手机</span>"
+                },
+                {
+                  "id": 342232159,
+                  "content": "<span style=\"color:#000000;\" >钱包</span>"
+                },
+                {
+                  "id": 342232162,
+                  "content": "<span style=\"color:#000000;\" >名片夹</span>"
+                },
+                {
+                  "id": 342232156,
+                  "content": "<span style=\"color:#000000;\" >铅笔</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "zu+HAT4QeVp2UZNMleYKcA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >皮肤黑黄的男生，选择印花衬衫时应尽量避免（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234050,
+                  "content": "<span style=\"color:#000000;\" >粉色</span>"
+                },
+                {
+                  "id": 342234041,
+                  "content": "<span style=\"color:#000000;\" >绿色</span>"
+                },
+                {
+                  "id": 342234053,
+                  "content": "<span style=\"color:#000000;\" >亮黄色</span>"
+                },
+                {
+                  "id": 342234046,
+                  "content": "<span style=\"color:#000000;\" >蓝色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "ZrnduevAdG41gxJiTuQfPA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >西装搭配牛仔裤时，西装最好（  ），适合大多数身材的男生。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236534,
+                  "content": "<span style=\"color:#000000;\" >收腰</span>"
+                },
+                {
+                  "id": 342236547,
+                  "content": "<span style=\"color:#000000;\" >短点</span>"
+                },
+                {
+                  "id": 342236542,
+                  "content": "<span style=\"color:#000000;\" >长点</span>"
+                },
+                {
+                  "id": 342236537,
+                  "content": "<span style=\"color:#000000;\" >宽松</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "NWxHFTArf1NNdQkYQFRHYw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >卷裤脚时，需要翻折的裤管整齐的裤型是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233024,
+                  "content": "<span style=\"color:#000000;\" >休闲裤</span>"
+                },
+                {
+                  "id": 342233019,
+                  "content": "<span style=\"color:#000000;\" >西装裤</span>"
+                },
+                {
+                  "id": 342233028,
+                  "content": "<span style=\"color:#000000;\" >休闲长裤</span>"
+                },
+                {
+                  "id": 342233015,
+                  "content": "<span style=\"color:#000000;\" >牛仔裤</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "VBr9ZS0DxqGM4wP1DZ5Nsw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >风衣的价格最好（  ）以上，在保证质量同时，经济上也能承受。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233608,
+                  "content": "<span style=\"color:#000000;\" >300-400</span>"
+                },
+                {
+                  "id": 342233616,
+                  "content": "<span style=\"color:#000000;\" >400-500</span>"
+                },
+                {
+                  "id": 342233604,
+                  "content": "<span style=\"color:#000000;\" >200-300</span>"
+                },
+                {
+                  "id": 342233612,
+                  "content": "<span style=\"color:#000000;\" >700-800</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "Syz05xYVStVVpfs6fQaQLA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >（  ）色，是清朝皇帝专用颜色，除皇帝特许之外，任何人都不得使用。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236428,
+                  "content": "<span style=\"color:#000000;\" >明黄</span>"
+                },
+                {
+                  "id": 342236440,
+                  "content": "<span style=\"color:#000000;\" >青绿</span>"
+                },
+                {
+                  "id": 342236430,
+                  "content": "<span style=\"color:#000000;\" >大红</span>"
+                },
+                {
+                  "id": 342236435,
+                  "content": "<span style=\"color:#000000;\" >月蓝</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "3vSWu8zSPGx5NHNvt0SLtg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >明代皇帝用途最广的服饰，比如视朝听政时，是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235068,
+                  "content": "<span style=\"color:#000000;\" >武弁服</span>"
+                },
+                {
+                  "id": 342235071,
+                  "content": "<span style=\"color:#000000;\" >皮弁服</span>"
+                },
+                {
+                  "id": 342235064,
+                  "content": "<span style=\"color:#000000;\" >燕服</span>"
+                },
+                {
+                  "id": 342235059,
+                  "content": "<span style=\"color:#000000;\" >常服</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "0FFYmk2ZnQizq3sPx/IZ5g==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >腰部有皱褶，没有那么夸张和肥大裤了称为（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235268,
+                  "content": "<span style=\"color:#000000;\" >锥形裤</span>"
+                },
+                {
+                  "id": 342235261,
+                  "content": "<span style=\"color:#000000;\" >西装裤</span>"
+                },
+                {
+                  "id": 342235264,
+                  "content": "<span style=\"color:#000000;\" >哈伦裤</span>"
+                },
+                {
+                  "id": 342235257,
+                  "content": "<span style=\"color:#000000;\" >休闲裤</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "SC40DQVYQ1ub/DIoWOyv8w==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >清代君臣在祭祀场合下，都要佩戴朝珠，是因为清代皇帝大多信奉（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232146,
+                  "content": "<span style=\"color:#000000;\" >萨满教</span>"
+                },
+                {
+                  "id": 342232149,
+                  "content": "<span style=\"color:#000000;\" >佛教</span>"
+                },
+                {
+                  "id": 342232151,
+                  "content": "<span style=\"color:#000000;\" >道教</span>"
+                },
+                {
+                  "id": 342232154,
+                  "content": "<span style=\"color:#000000;\" >祖宗崇拜</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "7muqbvuZuI2humpcpHkmNA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >让大腿看起来最瘦的宽度是：能在大腿侧面抓出（  ）左右的宽度。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232242,
+                  "content": "<span style=\"color:#000000;\" >1厘米</span>"
+                },
+                {
+                  "id": 342232236,
+                  "content": "<span style=\"color:#000000;\" >1.5厘米</span>"
+                },
+                {
+                  "id": 342232240,
+                  "content": "<span style=\"color:#000000;\" >2.5厘米</span>"
+                },
+                {
+                  "id": 342232237,
+                  "content": "<span style=\"color:#000000;\" >2.00厘米</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "hFg1iINY/XT7EcOUQwEkfw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >如果想要穿出层次感，牛仔夹克与T恤之间可以（  ）衬衫，以增加潮流气息。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236021,
+                  "content": "<span style=\"color:#000000;\" >格子衬衫</span>"
+                },
+                {
+                  "id": 342236025,
+                  "content": "<span style=\"color:#000000;\" >工装衬衫</span>"
+                },
+                {
+                  "id": 342236015,
+                  "content": "<span style=\"color:#000000;\" >古巴衬衫</span>"
+                },
+                {
+                  "id": 342236011,
+                  "content": "<span style=\"color:#000000;\" >正装衬衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "5r7T4NFkaaelTnVtQYrcmA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >人体最佳的黄金比例是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233881,
+                  "content": "<span style=\"color:#000000;\" >三七分</span>"
+                },
+                {
+                  "id": 342233877,
+                  "content": "<span style=\"color:#000000;\" >五五分</span>"
+                },
+                {
+                  "id": 342233889,
+                  "content": "<span style=\"color:#000000;\" >三六分</span>"
+                },
+                {
+                  "id": 342233885,
+                  "content": "<span style=\"color:#000000;\" >五四分</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "UbWHzP5UOiKoeAg70u7PZg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >牛仔夹克与（  ）搭配是最基本的搭配方法。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232676,
+                  "content": "<span style=\"color:#000000;\" >花色T恤</span>"
+                },
+                {
+                  "id": 342232678,
+                  "content": "<span style=\"color:#000000;\" >衬衫</span>"
+                },
+                {
+                  "id": 342232674,
+                  "content": "<span style=\"color:#000000;\" >单色T恤</span>"
+                },
+                {
+                  "id": 342232682,
+                  "content": "<span style=\"color:#000000;\" >花色衬衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "4+Sl8Sn20omm2Y5QLADOBQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >（  ）衣服可以阳光直射，不用担心强光会晒黄衣服。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232429,
+                  "content": "<span style=\"color:#000000;\" >白色</span>"
+                },
+                {
+                  "id": 342232427,
+                  "content": "<span style=\"color:#000000;\" >彩色</span>"
+                },
+                {
+                  "id": 342232435,
+                  "content": "<span style=\"color:#000000;\" >红色</span>"
+                },
+                {
+                  "id": 342232432,
+                  "content": "<span style=\"color:#000000;\" >黑色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "yTHL3gGGSnG48GPeAdE79w==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >搭配裤装时遵循（  ）原则。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232795,
+                  "content": "<span style=\"color:#000000;\" >上窄下宽</span>"
+                },
+                {
+                  "id": 342232792,
+                  "content": "<span style=\"color:#000000;\" >上窄下窄</span>"
+                },
+                {
+                  "id": 342232789,
+                  "content": "<span style=\"color:#000000;\" >上宽下窄</span>"
+                },
+                {
+                  "id": 342232785,
+                  "content": "<span style=\"color:#000000;\" >上宽下宽</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "RxQDNXBYibjfLB3xziTzNw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >明代二品大员的冠梁，有（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236520,
+                  "content": "<span style=\"color:#000000;\" >6道</span>"
+                },
+                {
+                  "id": 342236516,
+                  "content": "<span style=\"color:#000000;\" >7道</span>"
+                },
+                {
+                  "id": 342236511,
+                  "content": "<span style=\"color:#000000;\" >8道</span>"
+                },
+                {
+                  "id": 342236525,
+                  "content": "<span style=\"color:#000000;\" >5道</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "CmtpyVHxAQpPSg6ChAFHKQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >代表休闲、嘻哈，异域风情，很讲究个性的裤款叫（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342231840,
+                  "content": "<span style=\"color:#000000;\" >休闲裤</span>"
+                },
+                {
+                  "id": 342231847,
+                  "content": "<span style=\"color:#000000;\" >哈伦裤</span>"
+                },
+                {
+                  "id": 342231843,
+                  "content": "<span style=\"color:#000000;\" >锥形裤</span>"
+                },
+                {
+                  "id": 342231846,
+                  "content": "<span style=\"color:#000000;\" >西装裤</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "q7lZTUXVEnqCRoJG5rGiVA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >腰粗有小腹，选择（  ）平衡上半身的体积感。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232385,
+                  "content": "<span style=\"color:#000000;\" >紧身裤</span>"
+                },
+                {
+                  "id": 342232391,
+                  "content": "<span style=\"color:#000000;\" >哈伦裤</span>"
+                },
+                {
+                  "id": 342232383,
+                  "content": "<span style=\"color:#000000;\" >锥形裤</span>"
+                },
+                {
+                  "id": 342232389,
+                  "content": "<span style=\"color:#000000;\" >阔腿裤</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "kR02ODoNdMN2DGVnJiu0Pw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >（  ）与破洞牛仔裤搭配，就能穿出粗犷不羁，扮酷的感觉。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234525,
+                  "content": "<span style=\"color:#000000;\" >风衣</span>"
+                },
+                {
+                  "id": 342234540,
+                  "content": "<span style=\"color:#000000;\" >正式衬衫</span>"
+                },
+                {
+                  "id": 342234530,
+                  "content": "<span style=\"color:#000000;\" >商务夹克</span>"
+                },
+                {
+                  "id": 342234535,
+                  "content": "<span style=\"color:#000000;\" >皮夹克</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "N42evoe0N3+Fni4OqcMrUQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >花色针织开衫，下装或内搭需要选择（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236563,
+                  "content": "<span style=\"color:#000000;\" >格子裤子</span>"
+                },
+                {
+                  "id": 342236559,
+                  "content": "<span style=\"color:#000000;\" >花色</span>"
+                },
+                {
+                  "id": 342236555,
+                  "content": "<span style=\"color:#000000;\" >单色</span>"
+                },
+                {
+                  "id": 342236568,
+                  "content": "<span style=\"color:#000000;\" >花色衬衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "wal8r3PqhX8yIJt7LR1+zQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >质量上乘的风衣，正式场合可以搭配（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236279,
+                  "content": "<span style=\"color:#000000;\" >牛仔衬衣</span>"
+                },
+                {
+                  "id": 342236283,
+                  "content": "<span style=\"color:#000000;\" >T恤</span>"
+                },
+                {
+                  "id": 342236273,
+                  "content": "<span style=\"color:#000000;\" >西服</span>"
+                },
+                {
+                  "id": 342236287,
+                  "content": "<span style=\"color:#000000;\" >卫衣</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "C7CBOkakGYf6MuGzxG7l3Q==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >尼龙面料制作的（  ）洗涤特别注意，也不可以暴晒。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235667,
+                  "content": "<span style=\"color:#000000;\" >飞行员夹克</span>"
+                },
+                {
+                  "id": 342235663,
+                  "content": "<span style=\"color:#000000;\" >牛仔夹克</span>"
+                },
+                {
+                  "id": 342235658,
+                  "content": "<span style=\"color:#000000;\" >工装夹克</span>"
+                },
+                {
+                  "id": 342235671,
+                  "content": "<span style=\"color:#000000;\" >商务夹克</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "HEtjk29shbYllgAVFJdJcQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >裤管由上往下慢慢收紧，上宽下窄的牛仔裤称为（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232015,
+                  "content": "<span style=\"color:#000000;\" >喇叭</span>"
+                },
+                {
+                  "id": 342232013,
+                  "content": "<span style=\"color:#000000;\" >直筒</span>"
+                },
+                {
+                  "id": 342232020,
+                  "content": "<span style=\"color:#000000;\" >紧身</span>"
+                },
+                {
+                  "id": 342232018,
+                  "content": "<span style=\"color:#000000;\" >锥形</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "7cNwH8RRuX63IFqcxggHQA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >蟒袍能够体现官员的身份，一般用于（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234981,
+                  "content": "<span style=\"color:#000000;\" >宴会上</span>"
+                },
+                {
+                  "id": 342234987,
+                  "content": "<span style=\"color:#000000;\" >祭祀时</span>"
+                },
+                {
+                  "id": 342234971,
+                  "content": "<span style=\"color:#000000;\" >衙门里</span>"
+                },
+                {
+                  "id": 342234976,
+                  "content": "<span style=\"color:#000000;\" >公堂上</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "HycCog97k7TvTQwUyGln5g==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >正装衬衫指的是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232337,
+                  "content": "<span style=\"color:#000000;\" >古巴衬衫</span>"
+                },
+                {
+                  "id": 342232347,
+                  "content": "<span style=\"color:#000000;\" >法式衬衫</span>"
+                },
+                {
+                  "id": 342232344,
+                  "content": "<span style=\"color:#000000;\" >印花衬衫</span>"
+                },
+                {
+                  "id": 342232341,
+                  "content": "<span style=\"color:#000000;\" >工装衬衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "WTD6+8IXNsAyqbFPUpJx+A==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >穿过的西装应及时用衣架挂起来，专用西装衣架是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342231763,
+                  "content": "<span style=\"color:#000000;\" >塑料衣架</span>"
+                },
+                {
+                  "id": 342231760,
+                  "content": "<span style=\"color:#000000;\" >木制衣架</span>"
+                },
+                {
+                  "id": 342231766,
+                  "content": "<span style=\"color:#000000;\" >铁制衣架</span>"
+                },
+                {
+                  "id": 342231769,
+                  "content": "<span style=\"color:#000000;\" >细衣架</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "Sfk8O2AWu5vJ0BFaR68W/g==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >职业装配包的话，（  ）更显专业的气质。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234733,
+                  "content": "<span style=\"color:#000000;\" >帆布包</span>"
+                },
+                {
+                  "id": 342234746,
+                  "content": "<span style=\"color:#000000;\" >手提包</span>"
+                },
+                {
+                  "id": 342234738,
+                  "content": "<span style=\"color:#000000;\" >腰包</span>"
+                },
+                {
+                  "id": 342234742,
+                  "content": "<span style=\"color:#000000;\" >双肩包</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "jRFdivCNCgXgaIoGj1UGtw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >（  ）可以显得身材比例更高点。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232378,
+                  "content": "<span style=\"color:#000000;\" >卷发</span>"
+                },
+                {
+                  "id": 342232368,
+                  "content": "<span style=\"color:#000000;\" >短发</span>"
+                },
+                {
+                  "id": 342232374,
+                  "content": "<span style=\"color:#000000;\" >直发</span>"
+                },
+                {
+                  "id": 342232371,
+                  "content": "<span style=\"color:#000000;\" >披发</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "16tdX/5jj0ohB1fvACndog==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >全毛料西装清洁保养的方法是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232005,
+                  "content": "<span style=\"color:#000000;\" >烘干</span>"
+                },
+                {
+                  "id": 342232007,
+                  "content": "<span style=\"color:#000000;\" >干洗</span>"
+                },
+                {
+                  "id": 342232010,
+                  "content": "<span style=\"color:#000000;\" >手洗</span>"
+                },
+                {
+                  "id": 342232002,
+                  "content": "<span style=\"color:#000000;\" >机洗</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "Mgp/mdfpxKoseFl736z1UA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >（  ）不适合黄色皮肤，容易让人暗沉，显得很没精神。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234372,
+                  "content": "<span style=\"color:#000000;\" >藏青色</span>"
+                },
+                {
+                  "id": 342234376,
+                  "content": "<span style=\"color:#000000;\" >米色</span>"
+                },
+                {
+                  "id": 342234386,
+                  "content": "<span style=\"color:#000000;\" >绿色</span>"
+                },
+                {
+                  "id": 342234381,
+                  "content": "<span style=\"color:#000000;\" >黑色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "Dz5epy1tmBSkgIRkUOHFUw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >更偏绅士味的靴子是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233573,
+                  "content": "<span style=\"color:#000000;\" >工装靴</span>"
+                },
+                {
+                  "id": 342233569,
+                  "content": "<span style=\"color:#000000;\" >切尔西靴</span>"
+                },
+                {
+                  "id": 342233578,
+                  "content": "<span style=\"color:#000000;\" >马丁靴</span>"
+                },
+                {
+                  "id": 342233581,
+                  "content": "<span style=\"color:#000000;\" >尖头皮靴</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "3swnihm3nRybyNFiKRChyA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >T恤有领，指的是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342236112,
+                  "content": "<span style=\"color:#000000;\" >保暖内衣</span>"
+                },
+                {
+                  "id": 342236099,
+                  "content": "<span style=\"color:#000000;\" >POLO衫</span>"
+                },
+                {
+                  "id": 342236107,
+                  "content": "<span style=\"color:#000000;\" >打底衫</span>"
+                },
+                {
+                  "id": 342236103,
+                  "content": "<span style=\"color:#000000;\" >亨利衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "0gRkAq3ZG/adQjBNpWnDUA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >锥形裤不建议（  ）的男生选择，小裤脚会让小腿紧绷不舒服也不美观。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342234755,
+                  "content": "<span style=\"color:#000000;\" >大腿粗</span>"
+                },
+                {
+                  "id": 342234759,
+                  "content": "<span style=\"color:#000000;\" >臀宽</span>"
+                },
+                {
+                  "id": 342234764,
+                  "content": "<span style=\"color:#000000;\" >小腿粗</span>"
+                },
+                {
+                  "id": 342234769,
+                  "content": "<span style=\"color:#000000;\" >小腿细</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "Ro3RxnjtgfqpWUV6crUdTg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >小个子夏天T恤的选择上，选择（  ）的经典款式，否则显矮胖。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233815,
+                  "content": "<span style=\"color:#000000;\" >肥大</span>"
+                },
+                {
+                  "id": 342233808,
+                  "content": "<span style=\"color:#000000;\" >合身</span>"
+                },
+                {
+                  "id": 342233805,
+                  "content": "<span style=\"color:#000000;\" >紧身</span>"
+                },
+                {
+                  "id": 342233811,
+                  "content": "<span style=\"color:#000000;\" >贴身</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "HxUkGEtYS9jrNdPTOR93Nw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >高领针织衫最适合内搭（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 1,
+                "name": "单选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235487,
+                  "content": "<span style=\"color:#000000;\" >针织衫</span>"
+                },
+                {
+                  "id": 342235480,
+                  "content": "<span style=\"color:#000000;\" >T恤</span>"
+                },
+                {
+                  "id": 342235483,
+                  "content": "<span style=\"color:#000000;\" >卫衣</span>"
+                },
+                {
+                  "id": 342235475,
+                  "content": "<span style=\"color:#000000;\" >衬衫</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "1",
+              "eid": "psXfxZF7NpOW+/X0pc05Fw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<p>（&nbsp; ）最好用肥皂水手洗？</p>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235832,
+                  "content": "内裤"
+                },
+                {
+                  "id": 342235841,
+                  "content": "毛衣"
+                },
+                {
+                  "id": 342235836,
+                  "content": "袜子"
+                },
+                {
+                  "id": 342235838,
+                  "content": "卫衣"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "01UzqkSG21GYJukEkg9qcw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >搭配成套型西服的正装衬衫要注意（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233321,
+                  "content": "<span style=\"color:#000000;\" >色彩</span>"
+                },
+                {
+                  "id": 342233310,
+                  "content": "<span style=\"color:#000000;\" >衣领</span>"
+                },
+                {
+                  "id": 342233313,
+                  "content": "<span style=\"color:#000000;\" >腰身</span>"
+                },
+                {
+                  "id": 342233317,
+                  "content": "<span style=\"color:#000000;\" >长度</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "CeMTw1vFYgG52/sbcu7jHA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >皇帝冬天所穿着的端罩，是披在外衣之上的大氅，通常用（  ）制作。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233007,
+                  "content": "<span style=\"color:#000000;\" >藏羚羊皮</span>"
+                },
+                {
+                  "id": 342233010,
+                  "content": "<span style=\"color:#000000;\" >北极狐皮</span>"
+                },
+                {
+                  "id": 342232997,
+                  "content": "<span style=\"color:#000000;\" >黑狐皮</span>"
+                },
+                {
+                  "id": 342233002,
+                  "content": "<span style=\"color:#000000;\" >紫貂皮</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "Vfuo4gzKgsOT2tJCJWiO9g==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >夏天穿（  ）面料的衬衫，凉爽舒适。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235444,
+                  "content": "<span style=\"color:#000000;\" >真丝</span>"
+                },
+                {
+                  "id": 342235439,
+                  "content": "<span style=\"color:#000000;\" >涤纶</span>"
+                },
+                {
+                  "id": 342235432,
+                  "content": "<span style=\"color:#000000;\" >聚脂</span>"
+                },
+                {
+                  "id": 342235437,
+                  "content": "<span style=\"color:#000000;\" >棉麻</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "j5KrWpygLyBh7tMtL/ungQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >西装裤常见的色系有（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233072,
+                  "content": "<span style=\"color:#000000;\" >烟灰色</span>"
+                },
+                {
+                  "id": 342233076,
+                  "content": "<span style=\"color:#000000;\" >藏青色</span>"
+                },
+                {
+                  "id": 342233067,
+                  "content": "<span style=\"color:#000000;\" >灰色</span>"
+                },
+                {
+                  "id": 342233063,
+                  "content": "<span style=\"color:#000000;\" >黑色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "IPBxR1ILEK7pQy76LOXeGg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >夏天最好选择（  ）面料的裤款，才透气凉快。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342231907,
+                  "content": "<span style=\"color:#000000;\" >麻质</span>"
+                },
+                {
+                  "id": 342231904,
+                  "content": "<span style=\"color:#000000;\" >棉质</span>"
+                },
+                {
+                  "id": 342231909,
+                  "content": "<span style=\"color:#000000;\" >涤纶</span>"
+                },
+                {
+                  "id": 342231901,
+                  "content": "<span style=\"color:#000000;\" >聚脂</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "CqD0ADPriGIpnM9k0/B3gg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >购买职场着装，特别强调服装的（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235604,
+                  "content": "<span style=\"color:#000000;\" >时尚</span>"
+                },
+                {
+                  "id": 342235606,
+                  "content": "<span style=\"color:#000000;\" >质量</span>"
+                },
+                {
+                  "id": 342235608,
+                  "content": "<span style=\"color:#000000;\" >合体</span>"
+                },
+                {
+                  "id": 342235610,
+                  "content": "<span style=\"color:#000000;\" >款式</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "DMZy95cKn23IsO1+N1c/sg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >与卫衣搭配的鞋有（  ）呈现不同的风格。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232098,
+                  "content": "<span style=\"color:#000000;\" >马丁靴</span>"
+                },
+                {
+                  "id": 342232095,
+                  "content": "<span style=\"color:#000000;\" >工装靴</span>"
+                },
+                {
+                  "id": 342232093,
+                  "content": "<span style=\"color:#000000;\" >帆布鞋</span>"
+                },
+                {
+                  "id": 342232091,
+                  "content": "<span style=\"color:#000000;\" >板鞋</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "XeZ1y5Yvz60o71CpgcSM5w==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >西装上衣外侧左胸袋只可放置（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235850,
+                  "content": "<span style=\"color:#000000;\" >手机</span>"
+                },
+                {
+                  "id": 342235847,
+                  "content": "<span style=\"color:#000000;\" >钢笔</span>"
+                },
+                {
+                  "id": 342235853,
+                  "content": "<span style=\"color:#000000;\" >口袋布</span>"
+                },
+                {
+                  "id": 342235856,
+                  "content": "<span style=\"color:#000000;\" >鲜花</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "M6mJMvY0atmatxTtA1kdZg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >选对了领口尺寸的最佳方式是扣上领子，试着从领子前面插下（  ）一根或两根手指。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342231790,
+                  "content": "<span style=\"color:#000000;\" >三根手指</span>"
+                },
+                {
+                  "id": 342231784,
+                  "content": "<span style=\"color:#000000;\" >一根手指</span>"
+                },
+                {
+                  "id": 342231791,
+                  "content": "<span style=\"color:#000000;\" >四根手指</span>"
+                },
+                {
+                  "id": 342231787,
+                  "content": "<span style=\"color:#000000;\" >二根手指</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "drJQahvrGVLLVk/U6DcRcA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >双排扣西服适合（  ）体型的男生穿。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233351,
+                  "content": "<span style=\"color:#000000;\" >高瘦</span>"
+                },
+                {
+                  "id": 342233348,
+                  "content": "<span style=\"color:#000000;\" >矮胖</span>"
+                },
+                {
+                  "id": 342233354,
+                  "content": "<span style=\"color:#000000;\" >高胖</span>"
+                },
+                {
+                  "id": 342233358,
+                  "content": "<span style=\"color:#000000;\" >矮瘦</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "GylXsRwhqB5ml9Dv/G1A0Q==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >增高显瘦的好办法是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233622,
+                  "content": "<span style=\"color:#000000;\" >挽裤脚</span>"
+                },
+                {
+                  "id": 342233627,
+                  "content": "<span style=\"color:#000000;\" >九分裤</span>"
+                },
+                {
+                  "id": 342233634,
+                  "content": "<span style=\"color:#000000;\" >紧身裤</span>"
+                },
+                {
+                  "id": 342233631,
+                  "content": "<span style=\"color:#000000;\" >宽松锥形裤</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "PSK/Ss61rXBxD5lCbvTFSw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >清代皇帝朝服的12章纹，主要有 (  )。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235641,
+                  "content": "<span style=\"color:#000000;\" >日月星辰</span>"
+                },
+                {
+                  "id": 342235636,
+                  "content": "<span style=\"color:#000000;\" >飞禽走兽</span>"
+                },
+                {
+                  "id": 342235649,
+                  "content": "<span style=\"color:#000000;\" >五色云彩</span>"
+                },
+                {
+                  "id": 342235644,
+                  "content": "<span style=\"color:#000000;\" >山水火林</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "7/+05MdVWbAE1XGZTp+09Q==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<p>我们通常所说的人的外貌，主要是（&nbsp; ）</p>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233503,
+                  "content": "手部"
+                },
+                {
+                  "id": 342233495,
+                  "content": "面部"
+                },
+                {
+                  "id": 342233500,
+                  "content": "头发"
+                },
+                {
+                  "id": 342233507,
+                  "content": "腿部"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "BYq9ZcSIlOohcmlYMmfFFQ==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >清代官员服饰的构成，主要有（  ）等。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342233683,
+                  "content": "<span style=\"color:#000000;\" >衫</span>"
+                },
+                {
+                  "id": 342233688,
+                  "content": "<span style=\"color:#000000;\" >褂</span>"
+                },
+                {
+                  "id": 342233677,
+                  "content": "<span style=\"color:#000000;\" >冠</span>"
+                },
+                {
+                  "id": 342233679,
+                  "content": "<span style=\"color:#000000;\" >袍</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "ueV9un2BniGukG1NAejQbg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >深色竖条纹西装适合（  ）男生。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232129,
+                  "content": "<span style=\"color:#000000;\" >细长</span>"
+                },
+                {
+                  "id": 342232124,
+                  "content": "<span style=\"color:#000000;\" >强壮</span>"
+                },
+                {
+                  "id": 342232131,
+                  "content": "<span style=\"color:#000000;\" >瘦小</span>"
+                },
+                {
+                  "id": 342232126,
+                  "content": "<span style=\"color:#000000;\" >偏胖</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "RxUdHYNbxiVM36Q7uN00rg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >天凉，商务夹克与（  ）针织衫搭配，保暖又不会太老气。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232609,
+                  "content": "<span style=\"color:#000000;\" >高领</span>"
+                },
+                {
+                  "id": 342232613,
+                  "content": "<span style=\"color:#000000;\" >圆领</span>"
+                },
+                {
+                  "id": 342232616,
+                  "content": "<span style=\"color:#000000;\" >小V领</span>"
+                },
+                {
+                  "id": 342232605,
+                  "content": "<span style=\"color:#000000;\" >V领</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "cojQ4trkCa9eoLHcL9mvmg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >选择颜色比较清爽，搭配难度较低的格纹衬衫是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235770,
+                  "content": "<span style=\"color:#000000;\" >黑白格纹</span>"
+                },
+                {
+                  "id": 342235773,
+                  "content": "<span style=\"color:#000000;\" >蓝白格纹</span>"
+                },
+                {
+                  "id": 342235777,
+                  "content": "<span style=\"color:#000000;\" >红黑格纹</span>"
+                },
+                {
+                  "id": 342235780,
+                  "content": "<span style=\"color:#000000;\" >密集格纹</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "NLyaMfGWS3/K6EL5aJsOnA==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >剪羊毛夹克如果戴顶（  ）帽，可以让你从人群中脱颖而出。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342235198,
+                  "content": "<span style=\"color:#000000;\" >毛线帽</span>"
+                },
+                {
+                  "id": 342235189,
+                  "content": "<span style=\"color:#000000;\" >棒球帽</span>"
+                },
+                {
+                  "id": 342235202,
+                  "content": "<span style=\"color:#000000;\" >渔夫帽</span>"
+                },
+                {
+                  "id": 342235192,
+                  "content": "<span style=\"color:#000000;\" >报童帽</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "p2KdDWj/5CZuGwrrBiAoMw==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<span style=\"color:#000000;\" >工装裤最百搭的颜色是（  ）。</span>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 2,
+                "name": "多选题"
+              },
+              "questionOptions": [
+                {
+                  "id": 342232899,
+                  "content": "<span style=\"color:#000000;\" >灰色</span>"
+                },
+                {
+                  "id": 342232891,
+                  "content": "<span style=\"color:#000000;\" >军绿色</span>"
+                },
+                {
+                  "id": 342232888,
+                  "content": "<span style=\"color:#000000;\" >卡其色</span>"
+                },
+                {
+                  "id": 342232895,
+                  "content": "<span style=\"color:#000000;\" >白色</span>"
+                }
+              ],
+              "questionDatas": null,
+              "questionChildrens": null,
+              "questionScore": "2",
+              "eid": "p5ZQKBNOARuzPWK7EBeTgg==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<p>&nbsp; &nbsp; &nbsp;&nbsp; 一直都在说女士穿着打扮有3层境界，其实男士穿衣也有3层境界。由于男士的服装款式、颜色都远远比女性的少，所以可供选择搭配的几率就不多了。如何在有限的资源里把自己装扮的得体大方又具有时尚和谐感呢？这就是要讲究的男士服装搭配的3层境界了。穿衣三层境界，第一和谐 ，第二美感，第三个性，由浅入深，达到服饰高的要求。和谐指的是衣服要和体形相配，衣服色彩与肤色相配，衣服颜色之间相配。买衣服时可以根据下面三个标准选择，不符合其中任何一个的都不要掏出钱包： 你喜欢的、你适合的、你需要的。</p><p>&nbsp; &nbsp; &nbsp; &nbsp; 即使你的衣服不是每天都洗，但也要在条件许可的情况下争取每天都更换一下，两套衣服轮流穿着一周比一套衣服连着穿3天会更加让人觉得你整洁、有条理。品质精良的衬衫是你衣橱中不能缺少的，没有任何衣饰比它更加能够千变万化。买经典款式的衣饰，耐穿、耐看，同时加入一些潮流元素，不至于太显沉闷。根据自己的身材选购服装，可以给予男人很多不同的风格，展现男人味道的一面。服装搭配上不会花很多时间和精力，坚持简洁幽雅大方搭配。优雅的衣着有温柔味道，不断锻炼自己的审美品位。选择精良材质的保暖外套，里面则穿上轻薄的毛衣或衬衫，这样的国际化着装原则将会越来越流行。黑色是都市常规流行色，加入彩色既亮丽又不会太跳，寻找适合自己肤色的色彩。一定要注意服装是穿在自己身上的，而不是白色或者黑色的模特衣架。</p><p>&nbsp; &nbsp; &nbsp;&nbsp; 经典很重要，时髦也很重要，不要忘记的是一点匠心独具的别致。无论在色彩还是细节上，相近元素的使用虽然安全却不免平淡，适当运用对立元素，巧妙结合，会有事半功倍的美妙效果。衣服仅仅是第一步！在预算中留出配饰的空间，认为配饰可有可无的人是没有品位的。</p>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 9,
+                "name": "阅读理解（选择）/完型填空"
+              },
+              "questionOptions": null,
+              "questionDatas": null,
+              "questionChildrens": [
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>穿衣的三层境界指的是（ &nbsp; &nbsp; &nbsp;&nbsp; ）<br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 2,
+                    "name": "多选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342231603,
+                      "content": "<p>个性</p>"
+                    },
+                    {
+                      "id": 342231600,
+                      "content": "<p>美感</p>"
+                    },
+                    {
+                      "id": 342231598,
+                      "content": "<p>和谐<br/></p>"
+                    },
+                    {
+                      "id": 342231606,
+                      "content": "时尚"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "5+VzQC+7wk/xwjz5wibbwA==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>认识自己，了解身材优缺点，找到适合自己的穿衣法则，身材指的是（ &nbsp; &nbsp; &nbsp;&nbsp; ）。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 2,
+                    "name": "多选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342231617,
+                      "content": "胸围"
+                    },
+                    {
+                      "id": 342231615,
+                      "content": "腿围"
+                    },
+                    {
+                      "id": 342231612,
+                      "content": "腰围"
+                    },
+                    {
+                      "id": 342231610,
+                      "content": "肩膀<br/>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "wN62TSozfkcRnnLCX1v45g==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>要让优雅的衣着有温柔味道，就要不断锻炼自己的审美品位，提高的方法有（ &nbsp; &nbsp; &nbsp;&nbsp; ）。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 2,
+                    "name": "多选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342231625,
+                      "content": "内涵"
+                    },
+                    {
+                      "id": 342231623,
+                      "content": "健身"
+                    },
+                    {
+                      "id": 342231622,
+                      "content": "看书"
+                    },
+                    {
+                      "id": 342231628,
+                      "content": "旅游"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "UwuWmpUXcwG21FsbsLR9Ng==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>在条件许可的情况下争取（ &nbsp; &nbsp;&nbsp; ）都更换一下，会更加让人觉得你整洁、有条理。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 1,
+                    "name": "单选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342231637,
+                      "content": "三天"
+                    },
+                    {
+                      "id": 342231635,
+                      "content": "二天"
+                    },
+                    {
+                      "id": 342231633,
+                      "content": "每天<br/>"
+                    },
+                    {
+                      "id": 342231640,
+                      "content": "四天"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "Jcx1iklq5P0oCROTgsrpjg==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>耐看耐穿的衣服是（ &nbsp; &nbsp; &nbsp;&nbsp; ）。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 1,
+                    "name": "单选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342231646,
+                      "content": "基本款"
+                    },
+                    {
+                      "id": 342231648,
+                      "content": "牛仔裤<br/>"
+                    },
+                    {
+                      "id": 342231650,
+                      "content": "流行款<br/>"
+                    },
+                    {
+                      "id": 342231644,
+                      "content": "白衬衫<br/>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "UPsl9LvcxK7zFcuV3DXusA==",
+                  "comments": null
+                }
+              ],
+              "questionScore": "10",
+              "eid": "aKl5PVUuvQgpdbb6A0eO4Q==",
+              "comments": null
+            },
+            {
+              "id": null,
+              "parentId": null,
+              "name": "<p>冬天商场最便宜的一件羽绒服打过折都要上千，现在百元山寨网红店大行其道也不是没有道理。商场里的衣服再丑却依然有人买单，其实也就间接证明了大众审美的水平。这也难怪，毕竟我们从小穿的衣服都校园服，打开拼多多，销量最好的爆款都是白衬衫配黑裤子。与之对应，就不难理解商城里这些衣服有人买了。我们正处在一个审美水平跌入深谷的时代。数千年积淀、传承的中华文明，太多太多都在这几十年被抛弃、被消耗殆尽，而审美就是其中的牺牲品之一。他们评价一件东西的好坏，往往是通过价格、看上去是不是上档次、质量等方面评价。毕竟，中年人会更注意自己是否暖和，在丑和冷之间也更容易选择“丑”。没有很多钱的普通年轻人们，他们更盲目追求潮流。导致现在的衣服趋同化非常明显。充满标语的T恤...各种所谓oversized的不合身剪裁。</p><p><br/></p>",
+              "listenId": null,
+              "listenData": null,
+              "questionType": {
+                "id": 9,
+                "name": "阅读理解（选择）/完型填空"
+              },
+              "questionOptions": null,
+              "questionDatas": null,
+              "questionChildrens": [
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>中老年人选择衣服的标准是（ &nbsp; ）。<br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 2,
+                    "name": "多选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342233407,
+                      "content": "<p>暖和</p>"
+                    },
+                    {
+                      "id": 342233411,
+                      "content": "<p>档次<br/></p>"
+                    },
+                    {
+                      "id": 342233414,
+                      "content": "<p>实惠</p>"
+                    },
+                    {
+                      "id": 342233403,
+                      "content": "<p>质量<br/></p>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "+2P/36k+0Rot9JbT/FWbJg==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>衣服要与（&nbsp; ）一起成长。<br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 2,
+                    "name": "多选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342233424,
+                      "content": "<p>地位</p>"
+                    },
+                    {
+                      "id": 342233419,
+                      "content": "<p>年龄<br/></p>"
+                    },
+                    {
+                      "id": 342233427,
+                      "content": "<p>身份</p>"
+                    },
+                    {
+                      "id": 342233431,
+                      "content": "<p>环境</p>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "VbDz3XcNRGOPmTKbJnHTmQ==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>偏胖或偏瘦就是要穿（&nbsp; ）才能遮盖。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 1,
+                    "name": "单选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342233448,
+                      "content": "<p>过长</p>"
+                    },
+                    {
+                      "id": 342233437,
+                      "content": "<p>合身</p>"
+                    },
+                    {
+                      "id": 342233444,
+                      "content": "<p>过紧</p>"
+                    },
+                    {
+                      "id": 342233439,
+                      "content": "<p>宽大</p>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "/R25LpruvU1VD4K2KC+A2w==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>年轻人选择（&nbsp; ）衣服才是正确的选择。</p><p><br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 1,
+                    "name": "单选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342233463,
+                      "content": "时尚流行"
+                    },
+                    {
+                      "id": 342233459,
+                      "content": "基本款和流行混搭<br/>"
+                    },
+                    {
+                      "id": 342233456,
+                      "content": "<p>吸引自己<br/></p>"
+                    },
+                    {
+                      "id": 342233468,
+                      "content": "个性风格<br/>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "Lv5iDtNmFatuzly4pgcjVg==",
+                  "comments": null
+                },
+                {
+                  "id": null,
+                  "parentId": null,
+                  "name": "<p>购买衣服时，首先应考虑（&nbsp; ）。<br/></p>",
+                  "listenId": null,
+                  "listenData": null,
+                  "questionType": {
+                    "id": 1,
+                    "name": "单选题"
+                  },
+                  "questionOptions": [
+                    {
+                      "id": 342233486,
+                      "content": "款式色彩<br/>"
+                    },
+                    {
+                      "id": 342233479,
+                      "content": "选择品牌<br/>"
+                    },
+                    {
+                      "id": 342233482,
+                      "content": "认清身材"
+                    },
+                    {
+                      "id": 342233489,
+                      "content": "面料剪裁<br/>"
+                    }
+                  ],
+                  "questionDatas": null,
+                  "questionChildrens": null,
+                  "questionScore": "2.0",
+                  "eid": "BBO6CUYP3nZXcI0oLjyT1Q==",
+                  "comments": null
+                }
+              ],
+              "questionScore": "10",
+              "eid": "yqdsk+Iel3CZqYEM+kxyTQ==",
+              "comments": null
+            }
+          ]
+        }
+      ],
+      "ttfUrl": null
+    },
+    "examEndTime": "2025-05-26 21:39:04",
+    "state": null
+  },
+  "status": "200"
+}

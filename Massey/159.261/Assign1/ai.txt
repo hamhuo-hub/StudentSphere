@@ -1,9 +1,0 @@
-# AI Usage Statement
-
-During the development of this project, AI tools were used in the following ways:
-
-- To assist in generating the initial version of the project README based on the existing code structure and feature highlights.
-- To seek advice on color palette combinations for the game's visual design, ensuring appropriate contrast and aesthetic appeal.
-- To request suggestions on object sizing (e.g., snake size, grid cell size) for maintaining a balanced and visually consistent game layout.
-
-All AI-assisted content was reviewed, modified, and integrated manually to fit the specific requirements and style of the project.

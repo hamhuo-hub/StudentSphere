@@ -1,5 +1,0 @@
-The sprites for the spaceship, planets and alien ship in the attached
-sprite sheet for this lab are the work of MillionthVector
-(millionthvector.blogspot.co.nz) and are licensed under a
-Creative Commons Attribution 4.0 International License
-http://creativecommons.org/licenses/by/4.0/
